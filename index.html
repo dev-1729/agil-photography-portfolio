@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGIL A G (അജിൽ എ ജി) | Photography Portfolio</title>
+    <meta name="description"
+        content="Cinematic photography portfolio capturing masterful lighting and raw human emotion.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <a href="#home">Photographer</a>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#galleries">Galleries</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger" aria-label="Toggle Navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="title-wrapper">
+                <h1 class="hero-title">AGIL A G</h1>
+                <div class="vertical-accent">
+                    <span>PHOTOGRAPHY</span>
+                </div>
+            </div>
+            <h2 class="hero-subtitle">അജിൽ എ ജി</h2>
+            <a href="#galleries" class="hero-btn">EXPLORE WORK</a>
+        </div>
+    </section>
+
+    <section id="galleries" class="galleries-section">
+        <div class="container">
+            <h2 class="section-title">Portfolio</h2>
+
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">All Work</button>
+                <button class="filter-btn" data-filter="cultural">Cultural & Live Events</button>
+                <button class="filter-btn" data-filter="documentary">Documentary & Streets</button>
+                <button class="filter-btn" data-filter="monochrome">Monochrome & Conceptual</button>
+                <button class="filter-btn" data-filter="portraits">Portraits & Raw Emotion</button>
+            </div>
+
+            <div class="masonry-grid" id="gallery-grid">
+
+                <div class="gallery-item" data-category="cultural">
+                    <img src="https://res.cloudinary.com/dkldhs63m/image/upload/v1779097150/1_cidnus.jpg"
+                        alt="Bridal Portrait" loading="lazy">
+                </div>
+                <div class="gallery-item" data-category="cultural">
+                    <img src="https://res.cloudinary.com/dkldhs63m/image/upload/v1779097158/6_mdbdqr.jpg"
+                        alt="Church at Night" loading="lazy">
+                </div>
+                <div class="gallery-item" data-category="cultural">
+                    <img src="https://res.cloudinary.com/dkldhs63m/image/upload/v1779097160/7_cym0rb.jpg"
+                        alt="Church Day" loading="lazy">
+                </div>
+                <div class="gallery-item" data-category="cultural">
+                    <img src="https://res.cloudinary.com/dkldhs63m/image/upload/v1779097165/10_vmbh9u.jpg"
+                        alt="Live Musician" loading="lazy">
+                </div>
+                <div class="gallery-item" data-category="cultural">
+                    <img src="https://res.cloudinary.com/dkldhs63m/image/upload/v1779097167/11_y73x6i.jpg"
+                        alt="Kathakali Dancer" loading="lazy">
+                </div>
+                <div class="gallery-item" data-category="cultural">
+                    <img src="https://res.cloudinary.com/dkldhs63m/image/upload/v1779096408/20251126_165748_2.jpg_owu8f4.jpg"
+                        alt="Event Snapshot" loading="lazy">
+                </div>
+                <div class="gallery-item" data-category="cultural">
+                    <img src="https://res.cloudinary.com/dkldhs63m/image/upload/v1779095389/WhatsApp_Image_2026-05-18_at_2.39.18_PM_jh15ig.jpg"
+                        alt="Wedding Event Session" loading="lazy">
+                </div>
+
+                <div class="gallery-item" data-category="documentary">
+                    <img src="https://res.cloudinary.com/dkldhs63m/image/upload/v1779097151/2_vwdu27.jpg"
+                        alt="Boat on Beach" loading="lazy">
+                </div>
+                <div class="gallery-item" data-category="documentary">
+                    <img src="https://res.cloudinary.com/dkldhs63m/image/upload/v1779097156/5_mggmie.jpg" alt="Lizard"
+                        loading="lazy">
+                </div>
+                <div class="gallery-item" data-category="documentary">
+                    <img src="https://res.cloudinary.com/dkldhs63m/image/upload/v1779097163/9_wfrofv.jpg"
+                        alt="Motorcycle in Rain" loading="lazy">
+                </div>
+                <div class="gallery-item" data-category="documentary">
+                    <img src="https://res.cloudinary.com/dkldhs63m/image/upload/v1779097171/13_dylpei.jpg" alt="Dog"
+                        loading="lazy">
+                </div>
+                <div class="gallery-item" data-category="documentary">
+                    <img src="https://res.cloudinary.com/dkldhs63m/image/upload/v1779097173/14_i03s9s.jpg"
+                        alt="Handloom Worker" loading="lazy">
+                </div>
+                <div class="gallery-item" data-category="documentary">
+                    <img src="https://res.cloudinary.com/dkldhs63m/image/upload/v1779096270/Snapchat-1826455703.jpg_if4bu8.jpg"
+                        alt="Street candid" loading="lazy">
+                </div>
+                <div class="gallery-item" data-category="documentary">
+                    <img src="https://res.cloudinary.com/dkldhs63m/image/upload/v1779096270/Snapchat-32047339.jpg_z7mekr.jpg"
+                        alt="Documentary perspective" loading="lazy">
+                </div>
+
+                <div class="gallery-item" data-category="monochrome">
+                    <img src="https://res.cloudinary.com/dkldhs63m/image/upload/v1779097153/3_lyubmd.jpg"
+                        alt="Donuts conceptual" loading="lazy">
+                </div>
+                <div class="gallery-item" data-category="monochrome">
+                    <img src="https://res.cloudinary.com/dkldhs63m/image/upload/v1779097154/4_dhzivz.jpg"
+                        alt="Vintage Nikon Camera" loading="lazy">
+                </div>
+                <div class="gallery-item" data-category="monochrome">
+                    <img src="https://res.cloudinary.com/dkldhs63m/image/upload/v1779097161/8_tty28o.jpg"
+                        alt="Bird on Wire" loading="lazy">
+                </div>
+                <div class="gallery-item" data-category="monochrome">
+                    <img src="https://res.cloudinary.com/dkldhs63m/image/upload/v1779097169/12_wyspey.jpg"
+                        alt="Steeple B&W" loading="lazy">
+                </div>
+                <div class="gallery-item" data-category="monochrome">
+                    <img src="https://res.cloudinary.com/dkldhs63m/image/upload/v1779097174/15_kswoxv.jpg"
+                        alt="Mirror Reflection" loading="lazy">
+                </div>
+                <div class="gallery-item" data-category="monochrome">
+                    <img src="https://res.cloudinary.com/dkldhs63m/image/upload/v1779097176/16_uxoxxn.jpg"
+                        alt="Kombucha Bottle Conceptual" loading="lazy">
+                </div>
+                <div class="gallery-item" data-category="monochrome">
+                    <img src="https://res.cloudinary.com/dkldhs63m/image/upload/v1779096271/Snapchat-83623279.jpg_ij3wdz.jpg"
+                        alt="Monochrome dynamic abstract" loading="lazy">
+                </div>
+                <div class="gallery-item" data-category="monochrome">
+                    <img src="https://res.cloudinary.com/dkldhs63m/image/upload/v1779096272/Snapchat-70422754.jpg_ypfzog.jpg"
+                        alt="Black and White portrait" loading="lazy">
+                </div>
+
+                <div class="gallery-item" data-category="portraits">
+                    <img src="https://res.cloudinary.com/dkldhs63m/image/upload/v1779097178/17_inzqqk.jpg"
+                        alt="Child on Train" loading="lazy">
+                </div>
+                <div class="gallery-item" data-category="portraits">
+                    <img src="https://res.cloudinary.com/dkldhs63m/image/upload/v1779097180/18_dv3hao.jpg"
+                        alt="Woman on Steps" loading="lazy">
+                </div>
+                <div class="gallery-item" data-category="portraits">
+                    <img src="https://res.cloudinary.com/dkldhs63m/image/upload/v1779097182/19_csgcy5.jpg"
+                        alt="Woman with Flowers" loading="lazy">
+                </div>
+                <div class="gallery-item" data-category="portraits">
+                    <img src="https://res.cloudinary.com/dkldhs63m/image/upload/v1779097184/20_e6nqdp.jpg"
+                        alt="Two Kids Sitting" loading="lazy">
+                </div>
+                <div class="gallery-item" data-category="portraits">
+                    <img src="https://res.cloudinary.com/dkldhs63m/image/upload/v1779097186/21_ngarnt.jpg"
+                        alt="Boy Funny Face" loading="lazy">
+                </div>
+                <div class="gallery-item" data-category="portraits">
+                    <img src="https://res.cloudinary.com/dkldhs63m/image/upload/v1779097188/22_cczif1.jpg"
+                        alt="Boy Smiling" loading="lazy">
+                </div>
+                <div class="gallery-item" data-category="portraits">
+                    <img src="https://res.cloudinary.com/dkldhs63m/image/upload/v1779096472/snapchat-2033844803jpg_uqqvzu.jpg"
+                        alt="Candid Expression Portrait" loading="lazy">
+                </div>
+                <div class="gallery-item" data-category="portraits">
+                    <img src="https://res.cloudinary.com/dkldhs63m/image/upload/v1779096407/Snapchat-32047339.jpg_oqhdh1.jpg"
+                        alt="Emotive Human Frame" loading="lazy">
+                </div>
+                <div class="gallery-item" data-category="portraits">
+                    <img src="https://res.cloudinary.com/dkldhs63m/image/upload/v1779096405/Snapchat-1462805535.jpg_uft5es.jpg"
+                        alt="Expressive Silhouette Lighting" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container about-container">
+            <div class="about-image">
+                <img src="https://res.cloudinary.com/dkldhs63m/image/upload/v1779095535/1723558952609.jpg_z8uebv.jpg"
+                    alt="AGIL A G Portrait" loading="lazy">
+            </div>
+            <div class="about-text">
+                <h2 class="section-title">AGIL A G</h2>
+                <p>I am a professional Cinematographer and Photographer specializing in comprehensive wedding and event
+                    photography, documentary filmmaking, and creative portfolio shoots.</p>
+
+                <div class="cv-section">
+                    <h3>Core Competencies</h3>
+                    <ul>
+                        <li>Photography & Videography</li>
+                        <li>Media Production</li>
+                        <li>Video & Photo Editing</li>
+                        <li>Scriptwriting & Content Writing</li>
+                        <li>Advanced Lighting Techniques</li>
+                    </ul>
+                </div>
+
+                <div class="cv-section">
+                    <h3>Professional Experience</h3>
+                    <ul>
+                        <li><strong>Creative Director</strong> | VIARA BUILDCORP (2025 &ndash; 2026)</li>
+                        <li><strong>Media Associate</strong> | DEFINE PERSPECTIVE (2024 &ndash; 2025)</li>
+                        <li><strong>Freelance Photographer & Cinematographer</strong> (2016 &ndash; Present)</li>
+                    </ul>
+                </div>
+
+                <div class="cv-section">
+                    <h3>Certifications</h3>
+                    <ul>
+                        <li>Introduction to Digital Journalism (Reuters)</li>
+                        <li>Robotic Journalism (Phrazor)</li>
+                        <li>Photography (MyCaptain)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container contact-container">
+            <div class="contact-info">
+                <h2 class="section-title">Get in Touch</h2>
+                <p class="contact-cta">Available for select commissions, editorial assignments, and fine art print
+                    inquiries. Let's create something extraordinary together.</p>
+
+                <div class="contact-details">
+                    <p><a href="mailto:agilagofficial@gmail.com">agilagofficial@gmail.com</a></p>
+                    <p><a href="tel:+918547961166">8547961166</a></p>
+                </div>
+
+                <div class="social-links">
+                    <a href="http://www.linkedin.com/in/agil-a-g-406735205" target="_blank" aria-label="LinkedIn">LN</a>
+                    <a href="https://www.instagram.com/agilanilkumaar._/" target="_blank" aria-label="Instagram">IG</a>
+                </div>
+            </div>
+            <div class="contact-form-wrapper">
+                <form id="contact-form" class="contact-form" action="https://formspree.io/f/mvzyovnj" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required
+                            placeholder="Tell me about your project..."></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Inquiry</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; <span id="current-year">2026</span> AGIL A G. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close" aria-label="Close Lightbox">&times;</span>
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="Enlarged view">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
